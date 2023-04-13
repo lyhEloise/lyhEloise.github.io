@@ -15,6 +15,7 @@ video
 
 Special Features and Code
 -------------------------
+ *  this code makes the player not teleport up or through walls
 python ~~
 if self.is_touching_any_sprite_with_tag('ldtk_ground'):      
   if self.x_speed >= 0:
@@ -25,7 +26,6 @@ if self.is_touching_any_sprite_with_tag('ldtk_ground'):
        self.x += 1 
        self.x_speed = 0
        ~~
- *  this code makes the player not teleport up or theough walls
 
 Tools That I Used
  *  ldtk(https://ldtk.io/)

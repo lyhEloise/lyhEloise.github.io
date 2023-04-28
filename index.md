@@ -36,4 +36,4 @@ Tools That I Used
 
 Lunar Lander
 ============
-[click here to play](/eloise_lunar_lander_wedgl_v1/index.html)
+[click here to play](eloise_lunar_lander_wedgl_v1/index.html)

@@ -16,7 +16,8 @@ video
 Special Features and Code
 -------------------------
  *  this code makes the player not teleport up or through walls
-python ~~
+
+~~~python
 if self.is_touching_any_sprite_with_tag('ldtk_ground'):      
   if self.x_speed >= 0:
     while self.is_touching_any_sprite_with_tag('ldtk_ground'):
@@ -25,10 +26,14 @@ if self.is_touching_any_sprite_with_tag('ldtk_ground'):
     while self.is_touching_any_sprite_with_tag('ldtk_ground'):
        self.x += 1 
        self.x_speed = 0
-       ~~
+~~~
 
 Tools That I Used
- *  ldtk(https://ldtk.io/)
- *  vscode(https://code.visualstudio.com/)
- *  pycat(https://bitbucket.org/dwhite0/pycat.git)
- *  Kenney assets(https://www.kenney.nl/assets)
+ *  [ldtk](https://ldtk.io/)
+ *  [vscode](https://code.visualstudio.com/)
+ *  [pycat](https://bitbucket.org/dwhite0/pycat.git)
+ *  [Kenney assets](https://www.kenney.nl/assets)
+
+Lunar Lander
+============
+[click here to play](/eloise_lunar_lander_wedgl_v1/index.html)
